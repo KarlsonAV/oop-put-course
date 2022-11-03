@@ -20,9 +20,9 @@ public class Movie {
     }
 
     public void printInfo() {
-        System.out.println("Movie name: " + this.name);
-        System.out.println("Movie Cast: " + this.actors);
-        System.out.println("Movie Genre: " + this.genres);
-        System.out.println("Movie Ratings: " + this.ratings);
+        System.out.println("Movie name: " + name);
+        System.out.println("Movie Cast: " + actors);
+        System.out.println("Movie Genre: " + genres);
+        System.out.println("Movie Ratings: " + ratings);
     }
 }

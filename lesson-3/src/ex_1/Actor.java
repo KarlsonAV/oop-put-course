@@ -18,6 +18,6 @@ public class Actor {
     }
 
     public void printInfo() {
-        System.out.println("Name: " + this.name + ", Surname: " + this.surname + ", Age: " + this.age + ", Movies: " + movies);
+        System.out.println("Name: " + name + ", Surname: " + surname + ", Age: " + age + ", Movies: " + movies);
     }
 }

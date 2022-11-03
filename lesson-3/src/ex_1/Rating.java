@@ -14,7 +14,7 @@ public class Rating {
     }
 
     public void print() {
-        System.out.println("Critic Name: " + this.criticName + ", Score: " + score);
+        System.out.println("Critic Name: " + criticName + ", Score: " + score);
     }
 
 }
