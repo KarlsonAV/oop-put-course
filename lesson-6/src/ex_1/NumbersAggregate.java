@@ -22,6 +22,6 @@ public class NumbersAggregate {
     }
 
     public float avg() {
-        return (a + b) / 2;
+        return (float) (a + b) / 2;
     }
 }
