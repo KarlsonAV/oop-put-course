@@ -7,7 +7,6 @@ if __name__ == "__main__":
     with open("input.txt", mode='r') as file:
         lines = file.readlines()
         for line in lines:
-            line1 = line
             line = line.strip().split(',')
             range1, range2 = line[0].split('-'), line[1].split('-')
 
