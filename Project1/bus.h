@@ -14,7 +14,7 @@ protected:
 public:
     Bus();
     Bus(std::string model, double range, int number_of_places);
-    void PrintBusInfo();
+    virtual void PrintBusInfo();
     int BusNumber();
 };
 
@@ -22,5 +22,5 @@ public:
 class VipBus: public Bus {
 public:
     VipBus(std::string model, double range, int number_of_places);
-    void PrintBusInfo();
+    void PrintBusInfo() override;
 };

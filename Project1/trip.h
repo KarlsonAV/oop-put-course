@@ -18,13 +18,13 @@ protected:
     string trip_duration;
     vector<Passenger*> passengers;
     Bus* bus;
-
     void PrintTime();
-    void PrintPassangersList();
+    
 
 public:
     Trip(string departure_time, string departure_date, string trip_duration, vector<Passenger*> passengers, Bus* bus);
     virtual void PrintTripInfo() = 0;
+    void PrintPassangersList();
     int Id();
     void AddPassenger(Passenger* passenger, Ticket* ticket);
 };

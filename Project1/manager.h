@@ -8,11 +8,6 @@ private:
 public:
     int CreateTrip();
     int AddBus();
-    void PrintTripInfo();
-    void PrintBusInfo();
-    void PrintTrips();
-    void DeleteBus();
-    void DeleteTrip();
-    void PrintBuses();
+    void PrintInfo();
     void SellTicket();
 };

@@ -67,7 +67,7 @@ IntercityTrip::IntercityTrip("", "", "", vector<Passenger*>(), nullptr, "", "") 
     this -> destination_country = "";
 }
 
-InternationalTrip::InternationalTrip(string departure_time, string depature_date, string trip_duration, vector<Passenger*> passengers, Bus* bus, std::string origin_city, std::string destination_city, std::string origin_country, std::string destination_country):
+InternationalTrip::InternationalTrip(string departure_time, string departure_date, string trip_duration, vector<Passenger*> passengers, Bus* bus, std::string origin_city, std::string destination_city, std::string origin_country, std::string destination_country):
 IntercityTrip::IntercityTrip(departure_time, departure_date, trip_duration, passengers, bus, origin_city, destination_city) {
     this -> origin_country = origin_country;
     this -> destination_country = destination_country;
